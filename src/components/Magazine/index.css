@@ -1,0 +1,16 @@
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.magazine-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.list{
+    margin: 10px;
+    list-style-type: none;
+}
