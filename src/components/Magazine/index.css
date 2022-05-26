@@ -1,6 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.select{
+    margin-left: 10px;
+    height: 30px;
+    width: 200px;
+}
+
 .image{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
 .magazine-container{
@@ -9,8 +21,47 @@
     flex-wrap: wrap;
     
 }
+.line1{
+    margin-left: 10px;
+    width: 1120px;
+    background-color: black;
+}
 
 .list{
     margin: 10px;
     list-style-type: none;
+}
+
+.publish-name{
+    text-align: center;
+    font-size: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+.load-button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: gray;
+}
+
+@media screen and (max-width:750px){
+    .select{
+        height: 30px;
+        width: 90vw;
+    }
+    .magazine-container{
+        justify-content: center;
+    }
+    .line1{
+        display: none;
+    }
+    .contegory-name{
+        display: none;
+    }
 }

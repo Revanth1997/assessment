@@ -1,13 +1,12 @@
 
 import './App.css';
 import Category from './components/Category/Category';
-import Magazine from './components/Magazine/Magazine';
 
-function App() {
+const App = () =>{
+  
   return (
-    <div className="App">
+    <div className='App'>
       <Category />
-      <Magazine />
     </div>
   );
 }
